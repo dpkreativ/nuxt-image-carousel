@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper'
+import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
 
 export default {
   name: 'SecondDemo',
@@ -36,9 +36,7 @@ export default {
     Swiper,
     SwiperSlide,
   },
-  directives: {
-    swiper: directive,
-  },
+
   data() {
     return {
       swiperOption: {
