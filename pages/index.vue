@@ -1,5 +1,9 @@
 <template>
-  <Tutorial />
+  <div>
+    <FirstDemo />
+    <SecondDemo />
+    <ThirdDemo />
+  </div>
 </template>
 
 <script>
